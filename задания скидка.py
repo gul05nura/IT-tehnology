@@ -1,4 +1,4 @@
-membership = input("Тип членство(золото, серебро, обычный):").strip().lower()
+membership = input("Тип членство(золото, серебро, обычный):")
 amount = float(input("Сумма покупки:"))
 
 if membership == "золото":
@@ -21,4 +21,4 @@ else:
     discount = 0
     print("Некорректный тип членства.")
     
-    print(f"Ваша скидка:{discount*100}%")
+    print(f"Ваша скидка:{discount*amout}")
